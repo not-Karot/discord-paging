@@ -5,7 +5,7 @@
 
 To install the library, open your terminal and run this command:
 ```
-pip install git+https://github.com/Tommodev-06/pycord-paginator
+pip install pycord-paging
 ```
 
 Example with reactions:

@@ -4,17 +4,17 @@ with open("README.md", "r", encoding="utf-8") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="pycord-paginator",
+    name="pycord-paging",
     version="0.0.1",
     author="Tommodev",
     license="MIT",
     description="Pycord paginator for messages and embeds with reactions and buttons.",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/Tommodev-06/paginator.py",
+    url="https://github.com/Tommodev-06/pycord-paginator",
     project_urls={
-        "Source": "https://github.com/Tommodev-06/paginator.py",
-        "Documentation": "https://flampt.gitbook.io/paginator"
+        "Source": "https://github.com/Tommodev-06/pycord-paginator",
+        "Documentation": "https://github.com/Tommodev-06/pycord-paginator"
     },
     classifiers=[
         "Programming Language :: Python :: 3",
