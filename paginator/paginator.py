@@ -127,7 +127,7 @@ class Paginator:
             btns = [
                 Button(emoji=self.page_emojis.back, custom_id="back", disabled=True),
                 Button(label=f"1/{len(pages)}", disabled=True),
-                Button(emoji=self.page_emojis.forward, custom_id="forward")
+                Button(emoji=self.page_emojis.forward, custom_id="forward", disabled=len(pages)<=1)
             ]
             for i in btns:
                 view.add_item(i)
