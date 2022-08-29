@@ -1,11 +1,11 @@
 # Pycord Paginator
-**Pycord Paginator** is a library to paginate your messages or embeds when using [Pycord](https://github.com/Pycord-Development/pycord).
+**Pycord Paginator** is a library to paginate your messages or embeds when using [discord.py](https://discordpy.readthedocs.io/en/stable/index.html).
 
-⚠ This library is a fork of https://github.com/FlamptX/paginator.py, made for [Diskord](https://github.com/diskord-dev/diskord).
+⚠ This library is a fork of https://github.com/Tommodev-06/pycord-paging, made for Pycord.
 
 To install the library, open your terminal and run this command:
 ```
-pip install pycord-paging
+pip install git+https://github.com/not-Karot/discord-paging
 ```
 
 Example with reactions:
